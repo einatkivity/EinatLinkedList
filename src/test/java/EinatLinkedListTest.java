@@ -10,7 +10,7 @@ import org.junit.After;
 * @since <pre>���� 14, 2019</pre> 
 * @version 1.0 
 */ 
-public class MyLinkedListTest {
+public class EinatLinkedListTest {
 
     IMyLinkedList<Point> list = new EinatMyLinkedList<Point>(new Point(1,1));
 

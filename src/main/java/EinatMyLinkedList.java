@@ -81,7 +81,7 @@ public class EinatMyLinkedList<T> implements IMyLinkedList<T>{
         size--;
     }
 
-    public String print(List list) {
+    public String print() {
         Link iterateLink=head;
         String forAll="";
         while (iterateLink!=null){

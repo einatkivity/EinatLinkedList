@@ -10,7 +10,7 @@ public interface IMyLinkedList<T> {
 
     T getData(int index);
 
-    String print(List list);
+    String print();
 
 
 

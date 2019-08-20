@@ -27,7 +27,6 @@ public class EinatMyLinkedList<T> implements IMyLinkedList<T>{
 
 
     public void addAfter(int index, T data) {
-        //einatttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt
         Link link=new Link(data);
         Link before=getLink(index);
         Link after=getLink(index+1);
